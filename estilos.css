@@ -9,6 +9,7 @@ video {
     height: 100vh;
     width: auto;
     position:fixed;
+    object-fit: cover;
     left: 50%;
     transform: translateX(-50%);
     z-index: -1;
@@ -42,17 +43,17 @@ video {
     
         #instagram {
             background-image: url(./imagenes/INSTAGRAM.svg);
-            background-size: 250%;
+            background-size: 150%;
         }
     
         #vimeo {
             background-image: url(./imagenes/VIMEO.svg);
-            background-size: 300%;
+            background-size: 175%;
         }
     
         #mail {
             background-image: url(./imagenes/MAIL.svg);
-            background-size: 300%;
+            background-size: 175%;
         }
     
     }
@@ -62,8 +63,8 @@ video {
 @media screen and (min-width: 824px) {
 
     video {
-        width: 100%;
-        height:calc(100vw/1.77777777778);
+        width: 100vw;
+        /*height:calc(100vw/1.77777777778);*/
     }
     
     #botones {
