@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'knockout';
-    src: url(/font/Knockout-HTF66-FullFlyweight.otf);
+    src: url(./font/Knockout-HTF66-FullFlyweight.otf);
 }
 
 *{
@@ -35,36 +35,11 @@ video {
         list-style: none;
         gap: .5em;
     
-        a {
-            text-align: center;
-            text-decoration: none;
-            color: white;
-            font-size:6vh;
-            padding-left: .55em;
+        img{
+            height: 56px;
+            max-width: 100%;
         }
 
-        a:visited {
-            color: white;
-        }
-    
-        #instagram {
-            background-image: url(./imagenes/fondoIG.svg);
-            background-repeat: no-repeat;
-            background-size:contain;
-        }
-    
-        #vimeo {
-            background-image: url(./imagenes/fondoMAIL.svg);
-            background-repeat: no-repeat;
-            background-size:contain;
-        }
-    
-        #mail {
-            background-image: url(./imagenes/fondoVIMEO.svg);
-            background-repeat: no-repeat;
-            background-size:contain;
-        }
-    
     }
     
 
@@ -88,10 +63,6 @@ video {
         li {
             width: auto;
             height: calc(100%/5);
-            
-            a {
-                font-size: 4vw;
-            }
         }
     
     }
