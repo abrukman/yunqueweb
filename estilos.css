@@ -24,10 +24,9 @@ video {
     
     #botones {
         width: 100vw;
-        height: 100vh;
+        height: 90vh;
         position: relative;
         margin: auto;
-        padding-bottom: 2rem;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -40,9 +39,7 @@ video {
             max-width: 100%;
         }
 
-    }
-    
-
+    }  
 
 @media screen and (min-width: 824px) {
 
